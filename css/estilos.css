@@ -1,0 +1,246 @@
+
+h1{
+    display: flex;
+    font-family: 'League Gothic', sans-serif;
+    color: #1d1a1b;
+    text-shadow:2px 2px 2px #c7bdc0;
+    display:inline-flexbox;
+    font-size:  72px;
+    background-color: #f7d7e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px#d496a9;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+
+.boton1{
+    font-family: 'Fredoka', sans-serif; 
+    text-decoration: none;
+    padding: 20px 50px 20px 30px;
+
+}
+.boton{
+    font-family: 'Fredoka', sans-serif; 
+    color: #6e0e31;
+    background: #f0a2bd;
+    text-decoration: none;
+    padding: 25px;
+    box-shadow: 5px 5px#aa7b89;
+    
+
+
+    
+}
+
+div{
+    padding: 75px;
+    display: flexbox;
+    margin-top: 20px;
+}
+.boton:hover{
+    background: #9b3855 ;
+    box-shadow: 5px 5px#9c6c7b;
+    color: #FDEFF4;
+}
+
+.boton1:hover{
+    color: #d6185b;
+}
+
+
+.buscador{
+    display: flexbox;
+    font-family: 'Fredoka', sans-serif; 
+    width: auto;
+    height: auto;
+    padding: 1rem 1.5rem;
+    margin-right: 20px;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+    background-color:#f5ceda;
+    box-shadow: 5px 5px#d496a9;
+}
+
+.botonenviar{
+    color: #42081e;
+    background-color: #e2afbe;
+    box-shadow: 3px 3px#d496a9;
+    border: none;
+    border-radius: 10px;
+    padding-right: 5px;
+    
+}
+.botonenviar:hover{
+    background-color: #ad4d70;
+    box-shadow: 3px 3px#b67f8e;
+}
+.botonenviar:active{
+
+    background-color: #7a364f;
+    box-shadow: 3px 3px#916471;
+
+}
+
+.botonPastel{
+
+      display: flexbox;
+
+}
+
+h2{
+    font-size:  38px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 15px;
+    text-shadow: 2px 2px 2px #916471;
+
+}
+p{
+    font-size:  30px;
+    padding-left: 15px;
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+.informacion{
+    background-color: #d8b2bc;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.pedido{
+
+    color: #42081e;
+    background-color: #dca3e7;
+    box-shadow: 3px 3px#d496a9;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.pedido:hover{
+    background-color: #ad4d70;
+    box-shadow: 3px 3px#b67f8e;
+}
+
+.pedido:active{
+    background-color: rgb(173, 59, 116);
+    box-shadow: 3px 3px#916471;
+}
+
+.imagen{
+
+    padding-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+
+.cuadrotexto{
+
+    display: line;
+    font-family: 'Fredoka', sans-serif; 
+    width: 800px;
+    height: auto;
+    padding: 1rem 1.5rem;
+    margin-right: 20px;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+    background-color:#f5ceda;
+    box-shadow: 5px 5px#d496a9;
+}
+
+textosolo{
+    display: line;
+
+}
+
+.formulario1{
+    display: flex;
+    background-color: #d8b2bc;
+    text-align:start;
+    border-radius: 50px;
+
+}
+
+.formulario2{
+ 
+        background-color: #d8b2bc;
+        text-align:start;
+        border-radius: 50px;
+}
+
+.formularioimagen1{
+        display: flex;
+
+
+}
+.opciones{
+
+    accent-color: red;
+    padding: 20px;
+    background-color: #1d1a1b;
+}
+
+label > .opcionesmasa{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(180, 75, 75);
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif; 
+}
+label > .opcionesmasa:checked + *::before {
+    background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
+    border-color: teal;
+  }
+  label > .opcionesmasa:checked + * {
+    color: rgb(136, 45, 179);
+    border-color: rgb(37, 128, 128);
+  }
+
+  .imagenformulario{
+
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding-top: 80px;
+  }
+
+  label > .opcionesdecoracion{
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(180, 75, 75);
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif; 
+}
+label > .opcionesmasa:checked + *::before {
+    background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
+    border-color: teal;
+  }
+  label > .opcionesdecoracion:checked + * {
+    color: rgb(136, 45, 179);
+    border-color: rgb(37, 128, 128);
+  }
+
