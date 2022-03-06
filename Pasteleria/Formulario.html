@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteli-cosmos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="programacion.js">
+</head>
+<body>   
+    <nav>
+      <img src="https://export-download.canva.com/AhpQ0/DAE6I5AhpQ0/6/0/0001-20532282416.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220305%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220305T195811Z&X-Amz-Expires=23599&X-Amz-Signature=902a8435343af29645db0ca766a645b1a5ee7739257b14bb6acd065044d0019c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Logo%2520flor%2520dibujo%2520amarilla.png&response-expires=Sun%2C%2006%20Mar%202022%2002%3A31%3A30%20GMT" alt="" class = "imagen">
+      <h1>¡Pasteli-Cosmos!</h1>
+       <div>
+        
+    <input type="search" name="q" placeholder="Buscar..." autofocus required class="buscador">
+    <button class="botonenviar">Enviar</button>
+    </form>  
+            <a href="index.html" class="boton1">Inicio</a>
+            <a href="contacto.html" class="boton1">Contactanos</a> 
+            <a href="admin.html" class="boton">Vista de Admin</a> 
+        </div>         
+    </nav clas="ajuste">
+    <hr>
+
+    <div class="formulario1">
+        <div class ="formulario2">
+        <h2>Formulario de pedido</h2>
+            <p class="textosolo">Nombre:</p>
+            <input type="text" name="q" placeholder="¿Como te llamas?" autofocus required class="cuadrotexto" >
+            <p class="textosolo">Telefono:</p>
+            <input type="text" name="q" placeholder="Telefono movil" autofocus required class="cuadrotexto" >
+            <p class="textosolo">Correo electronico:</p>
+            <input type="text" name="q" placeholder="Correo personal" autofocus required class="cuadrotexto" >
+            <p class="textosolo">Sabor de la masa:</p>
+            
+            <label>
+                <input type="radio" name="key" id="sabor1" class ="opcionesmasa" />
+                <span class="textosolo">Vainilla ($2)</span>
+              </label>
+              <label>
+                <input type="radio" name="key" id="sabor2" class ="opcionesmasa" />
+                <span class="textosolo">Chocolate($4)</span>
+              </label>
+              <label>
+              <input type="radio" name="key" id="sabor3" class ="opcionesmasa"/>
+              <span class="textosolo">Fresa ($2)</span>
+            </label>
+
+            <p class="textosolo">Adornos:</p> 
+            <label>
+                <input type="radio" name="key1" value="another-value1"  class ="opcionesdecoracion" />
+                <span class="textosolo">Fondane ($4)</span>
+              </label>
+              <label>
+                <input type="radio" name="key1" value="another-value1" class ="opcionesdecoracion"  />
+                <span class="textosolo">Frutas ($2)</span>
+              </label>
+              <label>
+              <input type="radio" name="key1" value="another-value1" class ="opcionesdecoracion"  />
+              <span class="textosolo">Mensaje personalizado ($5)</span>
+            </label>
+            <hr>
+            <p>Total: </p>
+            <a href="" class="boton" onclick="mostrar_inputs()">Completar pedido</a>
+            <script type="text/javascript">
+                function mostrar_inputs(){
+                    let id1 = document.getElementById("sabor1").value;
+                    let id2 = document.getElementById("sabor2").value;
+                    let id3 = document.getElementById("sabor3").value;
+                    let radio_int = 0;
+                    if (id1){radio_int = 2;}
+                    if(id2){radio_int = 4;}
+                    if(id3){radio_int = 2;}
+                    alert(+id2);
+                }
+            </script>
+       
+            </div>
+            <div class ="formularioimagen1">
+            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=anthony-espinosa-6iqpLKqeaE0-unsplash.jpg" alt="" class ="imagenformulario">  
+            
+                </div>
+            
+            </div>
+  
+    </body>
+     </html>
+            
